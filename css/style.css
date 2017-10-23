@@ -42,7 +42,7 @@ nav {
     border:none;
     height:40px;
     background-color: #343c48;
-    margin:15px;
+    margin:10px;
     color:white;
     padding:0 30px;
     font-size:1.2rem;
@@ -54,16 +54,26 @@ nav {
     border:none;
     height:40px;
     background-color: #835fa8;
-    margin:15px;
+    margin:10px;
     color:white;
 }
 
+.headerDesc {
+    color:white;
+    width:40%;
+}
+
+.headerDesc h1 {
+    font-size:3rem;
+    
+}
 /* SEKCJA 1 ////////////////////*/
 
 .phoneBackground {
     height:500px;
     width:100%;
     background-color: #835fa8;
+
 }
 
 .phoneBoxes {
@@ -172,6 +182,49 @@ nav {
     flex-direction: column;
     height:100%;
     text-align: center;
+
+}
+
+/* section 5 */
+
+.productionBackground {
+    height:550px;
+    width:100%;
+    background-color: #2b303b;
+     
+}
+
+.productionBoxes {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    height:100%;
     
+}
+
+.productionBox {
+    width:25%;
+    height:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
     
+}
+
+.productionBox h3{
+    color:white;
+}
+
+.productionBox h3 span {
+    color:#3a4d60;
+}
+
+/* section 6 */
+
+.commentBackground {
+    height:750px;
+    width:100%;
+    background: url(../images/handwithpen.png) no-repeat center/cover;
+
 }
