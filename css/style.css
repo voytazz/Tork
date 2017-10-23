@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headerBackground {
+    width:100%;
+    height:900px;
+    background: url(../images/headerBg.png) no-repeat;
+    background-size:cover;
+}
+
+.containerInside {
+    width:80%;
+    margin:0 auto;
+}
+
+nav {
+    width:100%;
+    height: 15vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display:flex;
+    padding: 25px; 50px;
+}
+
+.navigation input {
+    border-radius:50px;
+    width:50%;
+    border:none;
+    height:40px;
+    background-color: #343c48;
+    margin:15px;
+    color:white;
+    padding:0 30px;
+    font-size:1.2rem;
+}
+
+.navigation button {
+    border-radius:50px;
+    width:150px;
+    border:none;
+    height:40px;
+    background-color: #835fa8;
+    margin:15px;
+    color:white;
+}
+
+/* SEKCJA 1 ////////////////////*/
+
+.phoneBackground {
+    height:500px;
+    width:100%;
+    background-color: #835fa8;
+}
+
+.phoneBoxes {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    height:100%;
+    
+}
+
+.superDuper {
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    width:40%;
+    height:100%;
+}
+
+.superDuper h2 {
+    font-size: 2.6rem;
+    color:white;
+}
+
+.superDuper p {
+    font-size: 1.3rem;
+    color:white;
+}
+
+.superDuper button {
+    font-size: 1rem;
+    color:white;
+    border:none;
+    background-color: #3dd2ae;
+    width:30%;
+    height: 10%;
+    border-radius:50px;
+}
+
+.superDuperPhoto {
+    display: flex;
+    justify-content: center;
+    width:60%;
+    
+}
+
+.superDuper p {
+    margin: 35px 0;
+}
+
+.superDuperPhoto img {
+    z-index: 1;
+}
+
+/* section 3 /////////*/
+
+.aboutBackground {
+    height:550px;
+    width:100%;
+    background-color: white;
+    
+    
+    
+    
+}
+
+.aboutBoxes {
+     display:flex;
+    align-items: center;
+    flex-direction: row;
+    height:100%;
+    
+}
+
+.box {
+    width:33.333333%;
+    height:80%;
+    z-index: 2;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.box button {
+    font-size: 1rem;
+    color:white;
+    border:none;
+    background-color: #3dd2ae;
+    width:30%;
+    height: 10%;
+    border-radius:50px;
+}
+
+/* section 4 /////////*/
+
+.designedBackground {
+    height:600px;
+    width:100%;
+    background-color: #232831;
+}
+
+.designedBoxes {
+     display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:100%;
+    text-align: center;
+    
+    
+}
