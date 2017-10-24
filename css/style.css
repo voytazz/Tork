@@ -262,6 +262,7 @@ nav {
 .phoneFilm {
     width:40%;
     height: 450px;
+    
 }
 
 
@@ -272,8 +273,24 @@ nav {
 
 .phoneFilmText {
     width:60%;
+    height:450px;
+    background-color: #835fa8;
+    
 }
 
+.twoPhones {
+    width:40%;
+    height:350px;
+}
+
+.twoPhonesImg {
+    width:60%
+}
+
+.twoPhonesImg img {
+    width: 100%;
+    height:100%;
+}
 
 
 /* section 6 */
