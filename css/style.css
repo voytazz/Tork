@@ -16,6 +16,7 @@
     height:900px;
     background: url(../images/headerBg.png) no-repeat;
     background-size:cover;
+    z-index:0;
 }
 
 .headerBoxText {
@@ -67,12 +68,13 @@ nav {
 }
 
 .headerDesc {
+    
     color:white;
-    width:40%;
+    width:50%;
 }
 
 .headerDesc h1 {
-    font-size:3rem;
+    font-size:4.5rem;
     
 }
 /* SEKCJA 1 ////////////////////*/
@@ -87,6 +89,7 @@ nav {
 .phoneBoxes {
     display:flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: row;
     height:100%;
     
@@ -102,12 +105,12 @@ nav {
 }
 
 .superDuper h2 {
-    font-size: 2.6rem;
+    font-size: 3rem;
     color:white;
 }
 
 .superDuper p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color:white;
 }
 
@@ -139,9 +142,11 @@ nav {
 /* section 3 /////////*/
 
 .aboutBackground {
+    position: relative;
     height:550px;
     width:100%;
     background-color: white;
+    z-index: 1;
     
 }
 
@@ -162,6 +167,24 @@ nav {
     flex-direction: column;
     justify-content: center;
     
+    text-align: justify;
+      
+}
+
+.box:nth-child(2) {
+    margin:0 80px;
+}
+
+.box h3 {
+    font-size:2rem;
+}
+
+.box span {
+    font-size: 1.25rem;
+}
+
+.box p {
+    font-size:1rem;
     
 }
 
@@ -170,7 +193,7 @@ nav {
     color:white;
     border:none;
     background-color: #3dd2ae;
-    width:30%;
+    width:40%;
     height: 10%;
     border-radius:50px;
 }
@@ -186,12 +209,66 @@ nav {
 .designedBoxes {
      display:flex;
     align-items: center;
+    
     flex-direction: column;
     height:100%;
     text-align: center;
+    overflow: hidden;
 
 }
 
+.designedBoxes h2 {
+    color:white;
+    font-size:3rem;
+    margin-top:100px;
+}
+
+.designedBoxes p {
+    color: #7f8690;
+    font-size:1.1rem;
+    margin: 30px 0;
+}
+
+.designedWindow {
+    margin-top:50px;
+    height:7%;
+    width:70%;
+    background-color: #2b303b;
+    border-radius: 10px 10px 0 0;
+    display:flex;
+    align-items: center;
+}
+
+.designedWindow .circle {
+    width:10px;
+    height:10px;
+    background-color:#434955;
+    border-radius:50%;
+    margin: 0 5px;
+}
+
+.designedImg {
+    
+    width:70%;
+    height:50%;
+    background: url(../images/comp.png) no-repeat bottom/cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.designWin {
+    width:30%;
+    height:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 5px solid white;
+    color:white;
+}
 /* section 5 */
 
 .productionBackground {
@@ -216,15 +293,21 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+   
     
 }
 
 .productionBox h3{
     color:white;
+    margin:30px 0;
 }
 
 .productionBox h3 span {
     color:#3a4d60;
+}
+
+.productionBox p {
+    color: #8f96a1;
 }
 
 /* section conectiivty */
@@ -246,6 +329,10 @@ nav {
 .conectivity {
     width:40%;
     height: 550px;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
     
 }
 
@@ -275,6 +362,7 @@ nav {
     width:60%;
     height:450px;
     background-color: #835fa8;
+    color:white;
     
 }
 
