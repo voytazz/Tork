@@ -80,8 +80,8 @@ nav {
 }
 
 .hamburgerMenu {
-    width: 100%;
-    height: 33.33%;
+    width: 80%;
+    height: 20%;
     background-color: white;
     margin: 10% 0;
    
@@ -534,5 +534,19 @@ nav {
     width:20%;
     height:65px;
     background-color:rebeccapurple;
+}
+
+@media only screen and (max-width: 600px) {
+    header input {
+        display:none;
+    }
+    
+
+    
+    .hamburger{
+        width:30%;
+        display:block;
+        z-index: 1;
+    }
 }
 
