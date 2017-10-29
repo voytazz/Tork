@@ -101,8 +101,16 @@ nav {
 }
 
 .headerDesc h1 {
-    font-size:4.5rem; 
+    margin: 30px 0;
+    font-size:100px;
+    line-height: 100%;
+    letter-spacing: 2px;
     
+}
+
+.headerDesc p {
+    font-size:1.25rem;
+    width:85%;
 }
 
 
@@ -510,43 +518,33 @@ nav {
     height:750px;
     width:100%;
     background: url(../images/handwithpen.png) no-repeat center/cover;
-
-}
-
-.commentBackgound {
-    width:50%;
-    height:70%;
-    background-color: #835fa8;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color:white;
 }
 
 .commentPurpleText {
     width:40%;
-    height:70%;
+    height:90%;
     background-color: #835fa8;
     display:flex;
     justify-content: center;
-    align-items: center;
+    padding:0 50px;
     flex-direction: column;
     color:white;
-    z-index:3;
+   
 }
 
-.commentBackgroundPurple {
-    width:32%;
-    height:50%;
-    position:absolute;
-    background-color: #835fa8;
-    z-index: 2;
-
+.commentPurpleText h3 {
+    margin: 50px 0;
+    font-size: 2rem;
 }
 
+.commentPurpleText span{
+   margin-left:20px;
+   font-size:1.25rem; 
+}
 
-
+.phoneFilmMargin {
+    margin-bottom:50px;
+}
 /* footer */
 
 .footerBackground {
@@ -597,16 +595,12 @@ nav {
     width:50%;
     display:flex;
     flex-direction: column;
-    color:white;
-    
+    color:white;  
 }
-
-
 
 .footerFlex {
     display:flex;
-    margin:50px 0;
-    
+    margin:50px 0;  
 }
 
 .footerInput input {
@@ -620,6 +614,18 @@ nav {
     width:15%;
     height:65px;
     background-color:rebeccapurple;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerAccept img{
+    width:30%;
+}
+
+.footerAccept:hover {
+    background-color:#3d1764;
+    transition:1s;
 }
 
 /*
