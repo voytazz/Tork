@@ -2,7 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500;
+    
 }
 
 .container {
@@ -25,6 +27,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .containerInside {
@@ -65,6 +68,7 @@ nav {
     background-color: #835fa8;
     margin:10px;
     color:white;
+    font-size:1.2rem;
 }
 
 .hamburger {
@@ -80,7 +84,7 @@ nav {
 }
 
 .hamburgerMenu {
-    width: 80%;
+    width: 100%;
     height: 20%;
     background-color: white;
     margin: 10% 0;
@@ -93,10 +97,12 @@ nav {
     
     color:white;
     width:50%;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .headerDesc h1 {
     font-size:4.5rem; 
+    
 }
 
 
@@ -130,11 +136,14 @@ nav {
 .superDuper h2 {
     font-size: 3rem;
     color:white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500;
 }
 
 .superDuper p {
     font-size: 1rem;
     color:white;
+    line-height: 200%;
 }
 
 .superDuper button {
@@ -185,7 +194,6 @@ nav {
 .box {
     width:33.333333%;
     height:80%;
-    z-index: 2;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -200,25 +208,32 @@ nav {
 
 .box h3 {
     font-size:2rem;
+    font-weight: 800;
+    
 }
 
 .box span {
     font-size: 1.25rem;
+    line-height: 200%;
+    color: #727884;
+    
 }
 
 .box p {
     font-size:1rem;
+    line-height: 200%;
     
 }
 
 .box button {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color:white;
     border:none;
     background-color: #3dd2ae;
     width:40%;
     height: 10%;
     border-radius:50px;
+    margin-top: 40px;
 }
 
 /* section 4 /////////*/
@@ -250,6 +265,7 @@ nav {
     color: #7f8690;
     font-size:1.1rem;
     margin: 30px 0;
+    line-height: 200%;
 }
 
 .designedWindow {
@@ -317,6 +333,7 @@ nav {
     justify-content: center;
     align-items: baseline;
     padding-right: 30px;
+    
    
     
 }
@@ -331,14 +348,13 @@ nav {
 }
 
 .productionBox p {
+    line-height: 200%;
     color: #8f96a1;
 }
 
 /* section conectiivty */
 
-.conectivityBackground {
-    background-color:#f4f8fb;
-}
+
 
 .conectivityBoxes {
      display:flex;
@@ -366,7 +382,7 @@ nav {
 .conectivityFlex {
     margin-bottom:30px;
     display:flex;
-            font-size:2rem;
+    font-size:2rem;
 
     align-items: center;
     
@@ -374,6 +390,20 @@ nav {
 
 .conectivityFlex h2 {
  margin: 0 20px;
+}
+
+.conectivity span {
+    font-size:1.25rem;
+    font-weight: 600;
+    color: #797f8b;
+}
+
+.conectivity p {
+    color: #44484f;
+}
+
+.conectivity span, .conectivity p {
+     line-height: 200%;
 }
 
 .conectivityCloud {
@@ -386,7 +416,7 @@ nav {
 }
 
 .conectivityImg img{
-    width:120.89%;
+    width:100%;
     height: 100%;
 }
 
@@ -407,25 +437,65 @@ nav {
     height:450px;
     background-color: #835fa8;
     color:white;
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
     
 }
 
 .phoneFilmText h3 {
-    padding:50px;
+    margin: 50px 0;
+    font-size:2rem;
+    width:80%;
+}
+
+.phoneFilmText p {
+    font-size:1rem;
+}
+
+.phoneFilmTextFlex {
+    display:flex;
+    width:50%;
+    align-items: center;
+    
+}
+
+.phoneFilmTextFlex p {
+   margin-left:20px;
+    font-size:1.25rem;
+    
 }
 
 .twoPhones {
     width:40%;
     height:350px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right:50px;
     
 }
 
 .twoPhones p {
     margin: 30px 0px;
+    line-height: 200%;
+    color: #8b9da5;
+}
+
+.twoPhones h3 {
+    font-size:2rem;
+}
+
+.twoPhones h4 {
+    font-size:2rem;
+    color: #83969f;
 }
 
 .twoPhonesImg {
     width:60%;
+    height:450px;
 }
 
 .twoPhonesImg img {
@@ -544,6 +614,7 @@ nav {
     height:65px;
     
 }
+
 
 .footerAccept {
     width:15%;
