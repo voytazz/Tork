@@ -46,7 +46,7 @@ nav {
 .navigation {
     display: flex;
     padding: 25px;
-    50px;
+    
 }
 
 .navigation input {
@@ -625,7 +625,7 @@ footer a {
 .footerAccept {
     width: 15%;
     height: 65px;
-    background-color: rebeccapurple;
+    background-color: #5f2f8e;
     display: flex;
     justify-content: center;
     align-items: center;
